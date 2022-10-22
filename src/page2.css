@@ -1,0 +1,78 @@
+body{
+    background-color: aliceblue;
+}
+
+#yes
+{
+    height: 40px;
+    width: 630px;
+    display: flex;
+    align-content: space-around;
+    /* background-color: black; */
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+#inputlink
+{
+    height: 40px;
+    width: 550px;
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+}
+
+#textin
+{
+    align-self: center;
+    margin-left: 10px;
+    color: gray;
+}
+
+#takein
+{
+    height: 45px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(16, 176, 35);
+    color: white;
+    border: 1px solid white;
+}
+
+#takein:hover
+{
+    cursor: pointer;
+    background-color: rgb(16, 176, 35,0.8);;
+}
+
+
+#url
+{
+    margin-top: 100px;
+   margin-left: 330px;
+   margin-bottom: 10px;
+}
+
+#result
+{
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foundit
+{
+    text-align: center;
+    color: rgb(79, 142, 79);
+    size: 20px;
+    margin-top: 10px;
+}

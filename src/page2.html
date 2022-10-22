@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <title>Lost and Found</title>
+</head>
+<body>
+    <div id="url">
+        Enter Image URL: <br>
+    </div>
+    <div id="yes">
+        <input type="text" id="inputlink"></input>
+        <button id="takein">Detect</button>
+    </div>
+
+    <div id="result"></div>
+    <div id="found" class="foundit"></div>
+    <script>
+
+document.getElementById('takein').addEventListener('click', function () {
+           let value=document.getElementById('inputlink').value;
+           document.getElementById('result').style.backgroundImage="url("+ value +")";
+           document.getElementById('result').style.border='5px solid lightgreen';
+           document.getElementById('found').innerText='Found a match and signal sent at location xyz police station.'
+        })
+
+    </script>
+</body>
+</html>
